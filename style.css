@@ -13,7 +13,7 @@ h3{
 }
 
 .container{
-     
+     justify-content: center;
     cursor: pointer;
 }
 
@@ -55,6 +55,8 @@ h3{
 
 .celcius-icon{
     font-size: 20px;
+    position: relative;
+    top: -12px;
 }
 
 #date-current{
@@ -89,3 +91,8 @@ h3{
     font-weight:bold;
 }
 
+#GitHub-link{
+    justify-content: center;
+    display: flex;
+    color: #4e2727;
+}
